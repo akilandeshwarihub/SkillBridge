@@ -1,0 +1,142 @@
+
+/* General */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f6fa;
+    color: #263445;
+}
+
+/* Header */
+header {
+    background-color: #142b40;
+    color: white;
+    padding: 20px 60px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+header p {
+    color: #b9c9d8;
+}
+
+/* Introduction */
+.intro {
+    background-color: #e4edf5;
+    text-align: center;
+    padding: 70px 20px;
+}
+
+.intro h2 {
+    font-size: 36px;
+    color: #142b40;
+}
+
+.intro p {
+    font-size: 17px;
+    color: #566575;
+    margin-bottom: 30px;
+}
+
+.intro a {
+    background-color: #142b40;
+    color: white;
+    text-decoration: none;
+    padding: 12px 25px;
+    border-radius: 5px;
+}
+
+.intro a:hover {
+    background-color: #315b7b;
+}
+
+/* Courses */
+.courses {
+    text-align: center;
+    padding: 50px 30px;
+}
+
+.courses h2,
+.careers h2 {
+    color: #142b40;
+    font-size: 28px;
+}
+
+.subtitle {
+    color: #687786;
+    margin-bottom: 30px;
+}
+
+.course-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    background-color: white;
+    width: 210px;
+    padding: 25px;
+    border-radius: 10px;
+    text-align: left;
+    border: 1px solid #e1e5ea;
+}
+
+.card h3 {
+    color: #245477;
+}
+
+.card p {
+    color: #687786;
+    line-height: 1.5;
+}
+
+.card span {
+    color: #142b40;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+/* Careers */
+.careers {
+    background-color: #eaf0f5;
+    text-align: center;
+    padding: 50px 30px;
+}
+
+.career-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.career-card {
+    background-color: white;
+    width: 230px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.career-card h3 {
+    color: #245477;
+}
+
+.career-card p {
+    color: #687786;
+}
+
+
+
+
+/* Footer */
+footer {
+    background-color: #142b40;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
